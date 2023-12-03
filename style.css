@@ -11,9 +11,7 @@ body{
 a{
     text-decoration: none;
 }
-@media(min-width:835px){
-   
-}
+
 
 /* NAVBAR */
 .navbar{
@@ -31,52 +29,14 @@ a{
 .navbar img{
     margin-right: 37rem !important;
 }
-@media(max-width:1424px){
-    .navbar img{
-        margin-right: 27rem;
-    }
-}
-@media(max-width:1290px){
-    .navbar img{
-        margin-right: 17rem;
-    }
-}
-@media(max-width:1142px){
-    .navbar img{
-        margin-right: 0rem;
-    }
-}
-@media(max-width:470px){
-    .navbar img{
-        width: 1px;
-    }
-}
-@media(max-width:1142px){
-    .navbar{
-        justify-content: center;
-        padding-right: 0;
-        width: 100%;
-        gap: 1rem;
-    }
-}
-@media(max-width:300px){
-    .navbar{
-        justify-content: left;
-       width: 100%;
-        gap: 0.5rem;
-    }
-}
+
 .navbar a{
     padding-block: 0.2rem;
     margin-block: 1rem;
     color: #ffffff;
     font-size: 1rem;
 }
-@media(max-width:732px){
-    .navbar a{
-        font-size: 0.8rem;
-    }
-}
+
 
 .hover-link:hover{
     color: rgb(255, 255, 255);
@@ -95,30 +55,13 @@ a{
     display: flex;
     padding-top: 4rem;
 }
-@media(max-width:1124px){
-    .home{
-        padding-top: 0rem;
-        align-items: center;
-        flex-direction: column;
-    }
-}
+
 .homeSec1{
     padding-top: 18.5rem;
     padding-inline: 6rem;
     
 }
-@media(max-width:1124px){
-    .homesec1{
-        padding-top: 0rem;
-        padding-left: 1rem;
-    }
-}
 
-@media(max-width:500px){
-    .homesec1{
-        padding-inline: 0rem !important;
-    }
-}
 
 .homeSec2{
    
@@ -126,17 +69,7 @@ a{
     padding-right: 12rem;
     padding-bottom: 6.4rem;
 }
-@media(max-width:1124px){
-    .homeSec2{
-        padding-top: 3rem;
-    }
-}
-@media(max-width:447px){
-    img{
-        width: 300px;
-        height: 340px;
-    }
-}
+
 .name{
     display: flex;
     gap: 19px;
@@ -148,13 +81,7 @@ a{
 .homePara{
     padding-right: 14rem;
 }
-@media(max-width:536px){
-    .homePara{
-        justify-content: center;
-        padding-right: 4rem;
-        font-size: 1rem;
-    }
-}
+
 .homeSec2 .myPicture img{
     background-color: #3b3535;
     border: solid 6px rgb(255, 255, 255) ;
@@ -170,25 +97,14 @@ a{
    justify-content: space-evenly;
   
 }
-@media(max-width:996px){
-    .about{
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 0;
-    }
-}
+
 
 .aboutSec2{
     padding-block: 3rem 7.5rem;
     width: 750px;
     padding-inline: 3rem;
 }
-@media(max-width:765px){
-    .aboutSec2{
-        width: auto;
-        padding-bottom: 3rem;
-    }
-}
+
 .aboutSec2 h1{
     color: rgb(255, 145, 0);
     font-size: 3rem;
@@ -221,12 +137,7 @@ a{
     color: aqua;
     padding-block: 1rem 0.2rem ;
 }
-@media(max-width:550px){
-    .aboutSec1 img{
-        width: 300px;
-        height: 340px;
-    }
-}
+
 
 /* SERVICES */
 
@@ -244,13 +155,6 @@ a{
 .servicesboxs{
     justify-content: space-evenly;
     display: flex;
-}
-@media(max-width:910px){
-    .servicesboxs{
-        flex-direction: column;
-        align-items: center;
-
-    }
 }
 
 .servicebox{
@@ -284,11 +188,7 @@ a{
     background-color: black;
     padding-bottom: 3.2rem;
 }
-@media(max-width:1124px){
-    .work{
-       padding-bottom: 1.2rem;
-    }
-}
+
 .work h1{
     padding-top: 4rem;
     padding-left: 8.5rem;
@@ -309,19 +209,7 @@ a{
     width: 90%;
     padding-inline: 3.5rem;
 }
-@media(max-width:1124px){
-    .workboxs{
-        grid-template-columns: repeat(2,5fr) ;
-        grid-template-rows: repeat(3,1fr);
-    }
-  
-}
-@media(max-width:844px){
-    .workboxs{
-        grid-template-columns: repeat(1,5fr) ;
-        grid-template-rows: repeat(5,1fr);
-    }
-}
+
 .workback{
     border: white solid;
     border-radius: 1rem;
@@ -359,21 +247,7 @@ a{
     margin-top: 4rem;
     margin-left: 45rem;
 }
-@media(max-width:1124px){
-    .workSubmit{
-        margin-left: 25rem;
-    }
-}
-@media(max-width:776px){
-    .workSubmit{
-        margin-left: 20rem;
-    }
-}
-@media(max-width:672px){
-    .workSubmit{
-        margin-left: 17rem;
-    }
-}
+
 
 
 /* Contact Me */
@@ -385,13 +259,7 @@ a{
     gap: 20rem;
     padding-bottom: 7rem;
 }
-@media(max-width:1124px){
-    .contact{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
+
 
 .contact h1{
     padding-block: 4rem;
@@ -399,43 +267,21 @@ a{
     color: rgb(255, 145, 0);
     font-size: 3rem;
 }
-@media(max-width:1124px){
-    .contact h1{
-        padding-left: 0;
-        padding-block: 2rem;
-
-    }
-}
 
 .contactSec1{
     color: #f5f5f5;
 }
-@media(max-width:1124px){
-    .contactSec1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 .contactSec1 .socialMediaicons{
     padding-top: 2.9rem;
     padding-left: 8.4rem ;
 }
-@media(max-width:1124px){
-    .contactSec1 .socialMediaicons{
-        padding-top: 1.9rem;
-        padding-left: 0;
-    }
-}
+
 
 .contactDetial {
     padding-left: 9rem;
 }
-@media(max-width:1124px){
-    .contactDetial {
-        padding-left: 0rem;
-    }
-}
+
 
 .contactSec1 .socialMediaicons a{
    padding: 0.6rem;
@@ -483,18 +329,8 @@ a{
     font-size: 1.2rem;
     border: #f5f5f5 solid 2.5px;
 }
-@media(max-width:1225px){
-    #contact-box input,
-#contact-box textarea{
-    width: 27rem;
-}
-}
-@media(max-width:467px){
-    #contact-box input,
-#contact-box textarea{
-    width: 17rem;
-}
-}
+
+
 
 
 /* FOOTER */
